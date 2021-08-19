@@ -8,6 +8,8 @@ For convenience have added a docker container to run a dhcp, tftp server to push
 
 Make sure to have a host that has docker engine installed and running (https://docs.docker.com/engine/install)
 
+NOTE: Build on docker engine is only guarenteed to work on a Linux platform, using Macosx or Windows is not fully supported!
+
 **And have a USB ttl serial lead to connect to the uart ports!
 This is really important, as only recover is to hold reset and install factory image again (test.bin)**
 
