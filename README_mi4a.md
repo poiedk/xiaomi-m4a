@@ -19,6 +19,10 @@ You need to build the docker image first:
 
 you can configure the 'dnsmasq.conf' to suit your needs - defaults should be fine and will detect all cards (tested in linux only)
 
+Before starting the dnsmasq container, make sure the host running docker-engine has the IP - 192.168.31.1
+
+The default oem firmware is looking for that IP address to pull down the recovery firmware file (test.bin)!
+
 To run it:
 
     ./tftpserver.sh start
